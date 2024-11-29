@@ -142,6 +142,7 @@ while(f<=5)
 // }
 console.log("-----------------------------------------------------------------------------")
 console.log("Easy do while Loop Questions")
+
 console.log("------------------------------Ans-16----------------------------------")
 
 console.log("Print numbers from 1 to 5 using a do...while loop.")
@@ -178,7 +179,7 @@ do{
 while(k<=15)
 
 console.log("------------------------------Ans-19----------------------------------")
-console.log("Keep doubling a number starting from 1 until it exceeds 100").
+console.log("Keep doubling a number starting from 1 until it exceeds 100")
 
 // Print the digits of a number one by one using a do...while loop.
 //                        Example: Input: 123, Output: 1, 2, 3
