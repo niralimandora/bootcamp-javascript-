@@ -4,13 +4,11 @@
 // Input:
 // const fun = [1, 2, 3, 4, 5, 6];
 // Output:
-[4, 16, 36]
-const fun = [1,2,3,4,5,6];
-const evens = fun.filter((item) => {
-    if(item % 2 === 0)
-        console.log(item * item);
-});
-console.log(evens); 
+function q1(arr){
+    let arr2 = (arr.filter((e) => e%2==0)).map((e) => e*e)
+    console.log(arr2)
+}
+q1([1, 2, 3, 4, 5, 6])
 
 // 2. Using `forEach` to Count Occurrences:
 // Write a function that counts how many times each element appears in an
@@ -24,7 +22,24 @@ console.log(evens);
 // orange: 1
 // }
 // 
-
+function q2(arr){
+        let arr2 = []
+        arr.forEach((e) => {
+            let count=0;
+            if(arr2.includes(e)){
+    
+            }else{
+                arr2.push(e)
+                for(let i=0 ; i<arr.length ; i++){
+                    if(arr[i]==e)
+                        count ++;
+                }
+                console.log(e +" is "+ count +" times")
+            }
+        })
+    }
+    q2(['apple', 'banana', 'orange', 'apple', 'banana', 'apple'])
+    
 
 // 3. Chain `map`, `filter`, and `forEach`:
 // Write a function that filters out numbers less than `5` from an array,
@@ -35,7 +50,11 @@ console.log(evens);
 // Output:
 // 10
 // 14
-// 16
+//16
+function q3(arr){
+    ((arr.filter((e) => e>=5)).map((e) => e*2)).forEach((e) => console.log(e));
+}
+q3([2, 3, 5, 7, 8])
 
 // 4. Using `map` to Modify Objects:
 // Write a function that adds a new property `totalPrice` to an array of
