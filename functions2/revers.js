@@ -4,10 +4,14 @@
 // Input: "hello"
 // Expected Output: "olleh"
 
-function reverseString(reverse) {
+function reverseString(reverse) 
+{
+    let ans =''
     for(var i=reverse.length-1; i>=0; i--) {
-        console.log(reverse[i]);
+        ans += reverse[i];
     }
+    console.log(ans);
 }
+
 //let reverse = 'nirali'
 reverseString('nirali') 
