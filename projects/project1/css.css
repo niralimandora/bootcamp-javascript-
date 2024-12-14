@@ -1,0 +1,16 @@
+#all{
+    background-color: lightpink;
+}
+.heading{
+    text-align: center;
+}
+.center{
+    border: 5px solid rgb(253, 3, 149);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    /* padding-left: 180px;
+    padding-top: 20px;*/
+    margin-left: 650px;
+    background-color: rgb(250, 115, 160);
+}
