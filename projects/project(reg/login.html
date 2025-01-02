@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #con {
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+            background-color: #f2f2f2;
+        }
+        a {
+            margin: 10px;
+        }
+        form {
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="con">
+        <a href="Register.html">Register</a>
+        <a href="product.html">Products</a>
+        <form action="" id="register">
+            <h2>Login</h2>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <input type="submit" >
+        </form>
+    </div>
+    <script src="./Script/login.js"></script>
+</body>
+</html>
